@@ -1,0 +1,50 @@
+extends base.pug
+
+block style 
+    style
+        include ../static/css/homestyle.css
+        include ../static/css/utility.css
+        include ../static/css/aboutstyle.css
+        include ../static/css/homeresponsive.css
+        include ../static/css/aboutresponsive.css
+
+block content
+        section.mainSection.background 
+            div.mainText
+                p.big-text 
+                    | Curious About Us
+                div.buttons
+                    button.btn
+                        a(href="#about") Click Me
+            div.mainImg
+                img(src="../static/img/home.jpg", alt="homeImg")
+            
+        section.aboutContainer 
+            div.aboutImg
+                img(src="../static/img/aboutbg.jpg", alt="aboutImg")
+            div.aboutItems#about
+                div.aboutText
+                    p We are Experts in the field of Web Development. We are team of 10 persons. Each of us have more than 10 years of Experience.
+                    p Our dream is to make someone capable for fulfilling his/her Dream
+                div.aboutContact
+                    div.contactImg
+                        a(href="#")
+                            img(src="../static/img/facebook.png", alt="facebook_logo")
+                    div.contactImg
+                        a(href="#") 
+                            img(src="../static/img/instagram.png", alt="instagram_logo")
+                    div.contactImg
+                        a(href="#") 
+                            img(src="../static/img/linkedin.png", alt="linkedin_logo")
+                    div.contactImg
+                        a(href="#") 
+                            img(src="../static/img/pinterest.png", alt="pinterest_logo")
+                    div.contactImg
+                        a(href="#") 
+                            img(src="../static/img/twitter.png", alt="twitter_logo")
+                    div.contactImg
+                        a(href="#") 
+                            img(src="../static/img/youtube.png", alt="youtube_logo") 
+                div.buttons-bg-white
+                    button.btn.btn-large
+                        a(href="#") Top

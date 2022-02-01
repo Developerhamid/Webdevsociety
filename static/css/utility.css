@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Ubuntu&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font1: "Ubuntu", sans-serif; /*Navigation, footer */
+  --font2: "Baloo Bhaijaan 2", cursive; /*Heading, buttons */
+  --font3: "Varela Round", sans-serif; /*page */
+  --color1: rgb(66 242 65); /*navigation, footer */
+  --color2: rgb(49, 183, 236); /*buttons */
+}
+
+.background {
+  background: rgb(139, 138, 138) url("./static/img/homebg.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.btn {
+  padding: 12px 45px;
+  border: 2px solid white;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1rem;
+  transition: all 0.4s ease-in;
+  margin: 0 8px;
+  font-family: var(--font2);
+  background: none;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  font-weight: bolder;
+  background-color: var(--color2);
+  color: black;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+}
+
+.btn-large {
+  border-color: black;
+  color: black;
+}

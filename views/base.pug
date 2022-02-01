@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='Online Web Developers Skillful Courses')
+    meta(name='author', content='Developerhamid')
+    title Web dev society | Developers Society
+    block style
+  body
+        nav.navbar.background.nav-height
+            div.logo.nav-visible
+                img(src="../static/img/logo.png", alt="logoImg")
+            ul.nav-list.nav-visible 
+                li 
+                    a(href="/") Home
+                li 
+                    a(href="/about") About
+                li 
+                    a(href="/join") Join
+                li 
+                    a(href="/contact") Contact us
+                            
+            div.search-bar.nav-visible
+                input(type="text", name="search" id="search" placeholder="search here...")
+                button.btn.btn-sm Search
+            
+            div.burgur
+                div.line
+                div.line
+                div.line
+
+        block content
+        script
+            include ../static/js/script.js

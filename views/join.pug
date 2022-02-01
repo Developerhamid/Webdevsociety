@@ -1,0 +1,58 @@
+extends base.pug
+
+block style 
+    style
+        include ../static/css/homestyle.css
+        include ../static/css/utility.css
+        include ../static/css/joinstyle.css
+        include ../static/css/homeresponsive.css
+        include ../static/css/joinresponsive.css
+
+block content
+        section.mainSection.background 
+            div.mainText
+                p.big-text 
+                    | Be a Member of Our family
+                div.buttons
+                    button.btn
+                        a(href="#join") Join now
+            div.mainImg
+                img(src="../static/img/home.jpg", alt="homeImg")
+        section.joinSection#join 
+            h1 Our Modern Courses
+            div.joinContainer
+                div.joinText
+                    h2 Be a Frontend Master 
+                    p Join for Mastering Interface of Website
+                    p Technologies - HTML, Css, Js, Bootstrap, React
+                    p Duration - 03 Months 
+                    div.buttons-bg-white
+                        button.btn.btn-large
+                            a(href="#") Enroll Now
+                div.joinImg
+                    img(src="../static/img/front.jpg", alt="frontendImg")
+
+            div.joinContainer.joinContainer-reverse
+                div.joinText
+                    h2 Be a Backend Engineer 
+                    p Join for Controlling website movement
+                    p Technologies - Node.js, Express.js, Pug, Mangoose, Postman
+                    p Duration - 03 Months 
+                    div.buttons-bg-white
+                        button.btn.btn-large
+                            a(href="#") Enroll Now
+                div.joinImg
+                    img(src="../static/img/back.png", alt="BackendImg")
+
+            div.joinContainer
+                div.joinText
+                    h2 Be a Database Controller 
+                    p Join for Maintaining website's Data
+                    p Technologies - MongoDb, Mongoose, MongoDB Compass
+                    p Duration - 02 Months 
+                    div.buttons-bg-white
+                        button.btn.btn-large
+                            a(href="#") Enroll Now
+                div.joinImg
+                    img(src="../static/img/data.jpg", alt="DataImg")
+                    

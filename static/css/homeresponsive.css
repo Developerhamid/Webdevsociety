@@ -1,0 +1,62 @@
+@media screen and (max-width: 1340px) {
+  .navbar {
+    flex-direction: column;
+    height: 250px;
+    transition: all 1s ease-out;
+  }
+
+  .nav-list li a {
+    margin: 0 10px;
+  }
+
+  .search-bar {
+    width: 45vw;
+    text-align: center;
+  }
+
+  #search {
+    margin-bottom: 8px;
+  }
+
+  .burgur {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .nav-visible {
+    display: none;
+  }
+
+  .nav-height {
+    height: 50px;
+  }
+
+  .mainSection {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .mainText {
+    width: 90vw;
+  }
+
+  .courseSection {
+    height: auto;
+  }
+
+  .coursesContainer {
+    flex-wrap: wrap;
+  }
+
+  .courseContainerItem {
+    margin: 25px;
+  }
+
+  .courseImg {
+    width: 50vw;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+}

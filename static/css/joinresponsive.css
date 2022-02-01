@@ -1,0 +1,18 @@
+@media screen and (max-width: 1340px) {
+  .joinContainer {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .joinText {
+    padding: 12px;
+  }
+
+  .joinImg {
+    width: 65vw;
+  }
+
+  .joinImg img {
+    width: 80%;
+  }
+}

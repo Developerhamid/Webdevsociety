@@ -1,0 +1,46 @@
+.contactSection {
+  margin-top: 20px;
+  height: 600px;
+  background-color: rgb(246 246 246);
+}
+
+.contactSection h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px 0;
+  font-family: var(--font2);
+}
+
+.myForm {
+  max-width: 70vw;
+  margin: auto;
+  text-align: center;
+}
+
+.myForm p {
+  display: inline-block;
+  font-size: 1.3rem;
+  font-family: var(--font1);
+  margin: 0 12px;
+}
+
+.formItem {
+  margin: 15px 0;
+}
+
+.myForm input,
+textarea {
+  padding: 6px 8px;
+  font-size: 1rem;
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  font-family: var(--font3);
+  border-radius: 4px;
+  outline: none;
+}
+
+.textarea{
+    display: flex;
+    justify-content: center;
+}
